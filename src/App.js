@@ -50,7 +50,7 @@ function App() {
             <tr key={index}>
               <td>{user.id}</td>
               <td>
-                <img src={user.image} alt="User Image" />
+                <img src={user.image} alt="User" />
               </td>
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
